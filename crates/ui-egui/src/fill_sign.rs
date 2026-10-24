@@ -1486,7 +1486,6 @@ mod tests {
         assert!(draft.worker.running.is_none());
     }
 
-    /// Changing settings while cleanup runs must discard the obsolete result.
     #[test]
     fn undo_removes_the_last_stroke_and_skips_empty_ones() {
         let mut d = super::SigDraft { drawing: true, ..Default::default() };
@@ -1499,6 +1498,7 @@ mod tests {
         assert!(!d.undo_stroke());
     }
 
+    /// Changing settings while cleanup runs must discard the obsolete result.
     #[test]
     fn stale_image_cleanup_cannot_replace_the_latest_preview() {
         use super::*;
