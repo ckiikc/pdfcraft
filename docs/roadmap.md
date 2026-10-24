@@ -1,6 +1,6 @@
 # PdfCraft roadmap: milestones and what's next
 
-> **Last reviewed:** 2026-10-24 · **Last updated:** 2026-10-24 · **Change:** minor (M5, PR #2164: rebased signature background cleanup onto current main, retaining reviewed alpha handling, worker error localization and upstream signature-pad undo; estimates unchanged)
+> **Last reviewed:** 2026-10-24 · **Last updated:** 2026-10-24 · **Change:** minor (M5, PR #2164: rebased signature background cleanup onto current main, retaining reviewed alpha handling, worker error localization and upstream signature-pad undo; worker limitations apply only to the web for both Image and Scan tabs; estimates unchanged)
 > **Last reviewed:** 2026-10-23 | **Last updated:** 2026-10-23 | **Change:** minor (M8, #3205 follow-up: labelled Italian international phone numbers with a slash match whole; estimates unchanged)
 > **Last reviewed:** 2026-10-23 · **Last updated:** 2026-10-23 · **Change:** minor (M7, #2636 partial: pasting added text boxes and images in the engine and through `content_copy`; estimates unchanged)
 > **Last reviewed:** 2026-10-23 · **Last updated:** 2026-10-23 · **Change:** minor (M11: image optimization accounts for page-local UserUnit; estimates unchanged)
